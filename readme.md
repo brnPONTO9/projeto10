@@ -1,8 +1,8 @@
-# Projeto 09 (Trilha Simplificada) - Montando a Página Única (Single Page)
+# Projeto 10 (Trilha Simplificada) - Menu Mobile Interativo com JavaScript
 
  
 
-Este é o projeto "capstone" da trilha de revisão de HTML e CSS, onde todos os componentes desenvolvidos anteriormente são montados para formar um website de página única completo e funcional.
+O projeto final da trilha de revisão de front-end, que adiciona interatividade e responsividade completa a um website através de JavaScript.
 
  
 
@@ -10,7 +10,7 @@ Este é o projeto "capstone" da trilha de revisão de HTML e CSS, onde todos os 
 
  
 
-O projeto consiste na montagem de uma página web coesa a partir de múltiplos componentes, incluindo cabeçalho, seção hero, galeria de fotos, depoimentos e formulário de contato. O foco principal é na composição do layout, na organização do CSS e na implementação de uma navegação interna com rolagem suave.
+Este projeto implementa uma das funcionalidades mais essenciais da web moderna: um menu de navegação "hamburger" para dispositivos móveis. Ele pega a página única construída no projeto anterior e a aprimora com CSS Media Queries e manipulação de DOM com JavaScript para garantir uma experiência de usuário perfeita em qualquer tamanho de tela.
 
  
 
@@ -18,25 +18,21 @@ O projeto consiste na montagem de uma página web coesa a partir de múltiplos c
 
  
 
-- **Arquitetura de Página Única**:
+- **JavaScript (Introdução à Manipulação do DOM)**:
 
-  - Estruturação de uma página completa com `<header>`, `<main>`, múltiplas `<section>` e `<footer>`.
+  - `document.querySelector`: Para selecionar elementos na página.
 
-  - **Navegação por Âncora**: Uso de links `href="#id"` para navegar dentro da mesma página.
+  - `element.addEventListener`: Para escutar por interações do usuário (eventos de clique).
 
-- **CSS3**:
+  - `element.classList.toggle`: A maneira moderna e eficiente de adicionar e remover classes CSS para controlar estados visuais.
 
-  - **`scroll-behavior: smooth`**: Para criar uma experiência de rolagem suave com uma única linha de CSS.
+- **CSS3 Responsivo**:
 
-  - **`position: sticky`**: Para criar cabeçalhos que "grudam" no topo da página durante a rolagem.
+  - **Media Queries (`@media`)**: Para aplicar estilos condicionalmente com base na largura da tela, criando layouts diferentes para desktop e mobile.
 
-  - **Organização de CSS**: Estruturação de uma folha de estilos maior com comentários e seções lógicas.
+- **Integração Front-End**:
 
-  - **Consolidação**: Aplicação de Flexbox, Grid, Box Model e Tipografia em um único projeto coeso.
-
-- **Composição**:
-
-  - Junção de múltiplos componentes independentes para formar um produto final.
+  - Demonstração da sinergia entre HTML (estrutura), CSS (apresentação e estados visuais) e JavaScript (interatividade) para criar uma funcionalidade completa.
 
  
 
@@ -44,8 +40,9 @@ O projeto consiste na montagem de uma página web coesa a partir de múltiplos c
 
  
 
-1. Clone este repositório com todas as pastas de `assets` dos projetos anteriores.
+1. Clone este repositório.
 
 2. Abra o arquivo `index.html` em seu navegador.
 
-3. Clique nos links da navegação para testar a rolagem suave.
+3. Redimensione a janela do navegador para uma largura menor que 768px para ver o menu hamburger aparecer e teste a sua funcionalidade.
+
